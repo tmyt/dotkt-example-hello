@@ -1,0 +1,15 @@
+<Project Sdk="DotKt.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <WindowsPackageType>None</WindowsPackageType>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <UseWinUI>true</UseWinUI>
+    <StartupObject>HelloKt</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.2.0" />
+    <PackageReference Include="DotKtx.Ui.WinUI" Version="0.9.2" />
+  </ItemGroup>
+</Project>
