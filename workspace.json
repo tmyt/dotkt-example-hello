@@ -1,0 +1,106 @@
+{
+  "modules": [
+    {
+      "name": "DotKtx.Experimental.LspSupport:Hello",
+      "dependencies": [
+        {
+          "type": "moduleSource"
+        },
+        {
+          "type": "inheritedSdk"
+        },
+        {
+          "type": "library",
+          "name": "Kotlin builtins",
+          "scope": "compile"
+        },
+        {
+          "type": "library",
+          "name": "DotKt: CLR projection",
+          "scope": "compile"
+        }
+      ],
+      "contentRoots": [
+        {
+          "path": "D:\\proj\\kot",
+          "sourceRoots": [
+            {
+              "path": "D:\\proj\\kot",
+              "type": "java-source"
+            }
+          ]
+        },
+        {
+          "path": "D:\\proj\\kot\\.dotkt\\lsp\\stubs",
+          "sourceRoots": [
+            {
+              "path": "D:\\proj\\kot\\.dotkt\\lsp\\stubs",
+              "type": "java-source"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "libraries": [
+    {
+      "name": "Kotlin builtins",
+      "type": "COMPILE",
+      "roots": [
+        {
+          "path": "C:\\Users\\yutaka\\.nuget\\packages\\dotktx.experimental.lspsupport\\0.9.4\\tools\\net10.0\\any\\kotlin-builtins.jar"
+        }
+      ]
+    },
+    {
+      "name": "DotKt: CLR projection",
+      "type": "COMPILE",
+      "roots": [
+        {
+          "path": "D:\\proj\\kot\\.dotkt\\lsp\\libraries\\dotkt-klib-java-stubs.jar"
+        }
+      ]
+    }
+  ],
+  "kotlinSettings": [
+    {
+      "name": "Kotlin",
+      "sourceRoots": [],
+      "configFileItems": [],
+      "module": "DotKtx.Experimental.LspSupport:Hello",
+      "useProjectSettings": false,
+      "implementedModuleNames": [],
+      "dependsOnModuleNames": [],
+      "additionalVisibleModuleNames": [],
+      "productionOutputPath": null,
+      "testOutputPath": null,
+      "sourceSetNames": [],
+      "isTestModule": false,
+      "externalProjectId": "",
+      "isHmppEnabled": false,
+      "pureKotlinSourceFolders": [],
+      "kind": "default",
+      "compilerArguments": "J{\u0022jvmTarget\u0022:\u002221\u0022,\u0022autoAdvanceLanguageVersion\u0022:false,\u0022autoAdvanceApiVersion\u0022:false,\u0022apiVersion\u0022:\u00222.4\u0022,\u0022languageVersion\u0022:\u00222.4\u0022,\u0022companionBlocks\u0022:true,\u0022companionBlocksAndExtensions\u0022:true}",
+      "additionalArguments": "-Xjvm-default=all -Xcompanion-blocks",
+      "scriptTemplates": null,
+      "scriptTemplatesClasspath": null,
+      "copyJsLibraryFiles": false,
+      "outputDirectoryForJsLibraryFiles": null,
+      "targetPlatform": "JVM (21)",
+      "externalSystemRunTasks": [],
+      "version": 5,
+      "flushNeeded": false
+    }
+  ],
+  "javaSettings": [
+    {
+      "module": "DotKtx.Experimental.LspSupport:Hello",
+      "inheritedCompilerOutput": true,
+      "excludeOutput": true,
+      "compilerOutput": null,
+      "compilerOutputForTests": null,
+      "languageLevelId": "JDK_21",
+      "manifestAttributes": {}
+    }
+  ]
+}

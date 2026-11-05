@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.2.0" />
-    <PackageReference Include="DotKtx.Ui.WinUI" Version="0.9.2" />
+    <PackageReference Include="DotKtX.UI.WinUI" Version="0.9.5" />
+    <PackageReference Include="DotKtX.Experimental.LspSupport" Version="0.9.4" />
   </ItemGroup>
 </Project>
